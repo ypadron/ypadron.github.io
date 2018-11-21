@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #2d3c49;
+  margin-top: 1em;
+}
+
+h1, h2, h3, h4, hr, ul {
+  margin: 0;
+}
+
+/**** HEADER ****/
+.header {
+  min-height: 48px;
+  margin-top: 0.5em;
+}
+
+.header-inner {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  max-height: 32px;
+  margin: 0 0.5em;
+}
+
+#header-title {
+  position: absolute;
+  top: 85px;
+  right: 3px;
+  float: right;
+  text-align: right;
+  text-transform: UPPERCASE;
+  color: #fff;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.sub-title {
+  margin-top: 0.25em;
+  font-weight: 500;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1em;
+  right: 0;
+}
+
+nav li {
+  display: inline-block;
+  color: darkslategray;
+}
+
+ nav a {
+   text-decoration: none;
+   padding: 1em;
+ }
+/* End Navigation */
+
+hr {
+  clear: both;
+}
+
+/* Main image */
+.hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.after-hero {
+  display: none;
+}
+
+/* Featured Work */
+.featured {
+  margin: 1em 0 0.50em 0;
+  font-weight: 300;
+}
+
+.projects img {
+  width: 100%;
+}
+
+.project-title {
+  display: block;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.75em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  color: #2d3c49;
+  }
+
+  a:visited {
+    color: darkslategray;
+  }
+
+footer {
+  text-align: center;
+  border-top: 1px solid slategray;
+  padding: 0.25em;
+  width: 100%
+}
