@@ -128,9 +128,8 @@
   }
 
   .projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
   }
 
  .project-img {
@@ -194,10 +193,11 @@
     height: 100vh;
   }
 
-  .projects {
-    display: grid;
-    /* justify-content: space-evenly; */
-    grid-template-columns: repeat(3, 1fr);
+  .project {
+    max-width: 400px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
   }
 
   .project-title {
