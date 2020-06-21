@@ -62,7 +62,7 @@ nav a {
 }
 
 .sub-title {
-  padding-top: .25em;
+  padding-top: .75em;
   font-weight: 800;
   text-transform: UPPERCASE;
   color: slategray;
@@ -94,18 +94,33 @@ main  {
   display: none;
 }
 
-/* Featured Work */
-#featured {
-  margin: 1em 0 0.50em 0;
+h2 {
+  margin: .5em 0 0.50em 0;
   font-weight: 300;
 }
 
-.projects {
+.desc {
+  /* width: 80%; */
+  margin: 0;
+  /* padding: .5em 0; */
+  padding: 1.5em;
+
+}
+
+/* Featured Work */
+#featured h2 {
+  /* margin: 0 50px; */
+  padding-left: 1em;
+  width: 80%;
+}
+
+#work {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   height: auto;
+  padding: 1em 0;
 }
 
 .project  {
@@ -140,7 +155,45 @@ a:visited {
   color: darkslategray;
 }
 
+#about {
+  display: flex;
+  background-color: gainsboro;
+  padding: 2em 0;
+  height: 300px;
+}
+
+#about div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#about h2 {
+  display: flex;
+  justify-content: center;
+  /* width: 50%; */
+  margin: 0 0 1em 0;
+}
+
+#about img {
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 auto;
+  height: 150px;
+  width: 250px;
+  background-color: turquoise;
+}
+
+#about .desc {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin-top: 1em;
+}
+
 footer {
+  background-color: darkslategray;
+  color: white;
   text-align: center;
   border-top: 1px solid slategray;
   padding: 0.25em;
