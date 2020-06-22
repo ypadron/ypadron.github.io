@@ -55,7 +55,7 @@
   }
 
 /* Featured Work */
-  .projects {
+  #work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +64,30 @@
   .project-img {
     width: 100%;
     height: auto;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  #about div {
+    /* width: 100%; */
+  }
+
+  .desc-right {
+    width: 80%;
+    /* align-items: center; */
+    /* height: auto; */
+    /* margin: 0 auto; */
+    margin-top: 1em;
+  }
+
+  footer {
+    position: absolute;
+    /* bottom: 0; */
   }
 }
 
@@ -127,7 +151,7 @@
     /* width: 100%; */
   }
 
-  .projects {
+  #work {
     display: flex;
     flex-flow: row wrap;
   }
@@ -143,6 +167,14 @@
     font-size: 1.25em;
     margin-top: 1em;
     margin-bottom: 2em;
+  }
+
+  #about {
+    flex-direction: row;
+  }
+
+  .desc-left, .desc-right {
+    width: 50%;
   }
 
 }
@@ -202,5 +234,9 @@
 
   .project-title {
     font-size: 1.25em;
+  }
+
+  .desc-right p {
+    max-width: 90%;
   }
 }
