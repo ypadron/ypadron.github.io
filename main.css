@@ -178,6 +178,58 @@ a:visited {
   background-color: turquoise;
 }
 
+#skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: gainsboro; */
+  margin: 10px 0;
+}
+
+#skills-list p {
+  line-height: 1.1;
+  font-size: 20px;
+}
+
+.skill {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  /* border: 1px solid darkgray; */
+  align-items: center;
+  justify-content: center;
+}
+
+.sk-one, .sk-eight {
+  border-radius: 50%;
+  background-color: darkseagreen;
+  border-color: darkseagreen;
+  color: white;
+}
+
+.sk-two, .sk-five {
+  border-radius: 50%;
+  background-color: papayawhip;
+  border-color: papayawhip;
+  /* color: white; */
+}
+
+.sk-three, .sk-six {
+  border-radius: 50%;
+  background-color: coral;
+  border-color: coral;
+  color: white;
+}
+
+.sk-four, .sk-seven {
+  border-radius: 50%;
+  border-color: steelblue;
+  background-color: steelblue;
+  color: white;
+}
+
 footer {
   background-color: darkslategray;
   color: white;
