@@ -23,19 +23,22 @@ header {
   min-height: 60px;
   height: auto;
   width: 100%;
+  margin: 0;
   background-color: white;
   z-index: 1;
 }
 
+/* Keep for later */
 .logo {
   /* max-height: 32px; */
   /* margin: 0 0.5em; */
 }
+/* Keep for later  */
 
 /* Navigation */
 nav {
   display: flex;
-  align-items: center;
+  font-size: 1.25em;
 }
 
 nav li {
@@ -178,13 +181,28 @@ a:visited {
   background-color: turquoise;
 }
 
+.desc-left  {
+  /* max-width: 50%; */
+  /* width: 400px; */
+}
+
+.desc-right  {
+  /* max-width: 50%; */
+  /* width: 400px; */
+}
+
+.desc-right p {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
 #skills-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   /* background-color: gainsboro; */
-  margin: 10px 0;
+  padding: 1.5em 0;
 }
 
 #skills-list p {
@@ -200,6 +218,7 @@ a:visited {
   /* border: 1px solid darkgray; */
   align-items: center;
   justify-content: center;
+  margin: .25em;
 }
 
 .sk-one, .sk-eight {
@@ -235,6 +254,33 @@ footer {
   color: white;
   text-align: center;
   border-top: 1px solid slategray;
-  padding: 0.25em;
+  padding: 1.5em 0;
   width: 100%;
+}
+
+#contact.full-width {
+  max-width: 100%;
+}
+
+.contact-sections {
+  max-width: 50%;
+  width: 400px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h3  {
+  padding: 3%;
+}
+
+#email-link a  {
+  color: white;
+}
+
+i.fab {
+  color: white;
+  padding: 1%;
+}
+
+h5  {
 }
